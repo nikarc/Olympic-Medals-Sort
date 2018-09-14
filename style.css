@@ -1,0 +1,89 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  color: #888b8c;
+}
+
+th {
+  cursor: pointer;
+  border-bottom: 3px solid #888b8c;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+th.sorted {
+  border-top: 3px solid #888b8c;
+}
+
+td, th {
+  padding: 5px;
+}
+
+tr td {
+  border-bottom: 1px solid #888b8c;
+}
+
+.flag {
+  background-image: url('https://s3-us-west-2.amazonaws.com/reuters.medals-widget/flags.png');
+  height: 17px;
+  width: 28px;
+}
+
+.flag.AUT {
+  background-position: 0 0;
+}
+.flag.BLR {
+  background-position: 0 204px;
+}
+.flag.CAN {
+  background-position: 0 187px;
+}
+.flag.CHN {
+  background-position: 0 170px;
+}
+.flag.FRA {
+  background-position: 0 153px;
+}
+.flag.GER {
+  background-position: 0 136px;
+}
+.flag.ITA {
+  background-position: 0 119px;
+}
+.flag.NED {
+  background-position: 0 102px;
+}
+.flag.NOR {
+  background-position: 0 85px;
+}
+.flag.RUS {
+  background-position: 0 68px;
+}
+.flag.SUI {
+  background-position: 0 51px;
+}
+.flag.SWE {
+  background-position: 0 34px;
+}
+.flag.USA {
+  background-position: 0 17px;
+}
+
+.medal-header {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+#gold-header {
+  background-color: gold;
+}
+#silver-header {
+  background-color: silver;
+}
+#bronze-header {
+  background-color: #cd7f32;
+}
