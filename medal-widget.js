@@ -104,7 +104,7 @@ window.widget = {
       }
 
       sortedMedals () {
-        // return rthe medals sorted by the sort predicate
+        // return the medals sorted by the sort predicate
         return this.state.medals.sort((a, b) => sortCallback(a, b, this.state.sort)).slice(0, 10);
       }
 
