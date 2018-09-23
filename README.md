@@ -29,3 +29,12 @@ The user can also click on the table headers to change sort
 example:
 
 ![gif](https://i.imgur.com/UrPXpS6.gif)
+
+## Development
+
+```bash
+# Install dependencies
+$ npm install
+# Run browser sync server
+$ npm start
+```

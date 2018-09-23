@@ -4,7 +4,7 @@ window.widget = {
     const gray = '#888b8c';
     // Fetch json data
     try {
-      const apiRes = await fetch('https://s3-us-west-2.amazonaws.com/reuters.medals-widget/medals.json');
+      const apiRes = await fetch('https://s3.amazonaws.com/medals-sort/medals.json');
       data = await apiRes.json();
 
       if (!apiRes.ok) return alert(`There was an error fetching the data: ${JSON.stringify(data)}`);
